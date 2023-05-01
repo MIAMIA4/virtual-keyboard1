@@ -1,0 +1,112 @@
+input{
+    height: 100px;
+    width: 1000px;
+    margin-bottom: 20px;
+}
+
+#keyboard {
+    display: block;
+    width: max-content;
+    border: 2px solid black;
+    padding: 5px;
+    overflow: auto;
+    user-select: none;
+}
+
+.keyboard__key{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    margin: 3px;
+    padding: 3px;
+    float: left;
+}
+
+.next__row {
+    clear: both;
+}
+
+.backspace {
+    width: 75px;
+    height: 50px;
+    border: 1px solid black;
+    padding: 3px;
+    margin: 3px;
+    float: left;
+}
+
+.tab {
+    width: 75px;
+    height: 50px;
+    border: 1px solid black;
+    padding: 3px;
+    margin: 3px;
+    float: left;
+}
+
+.caps {
+    width: 95px;
+    height: 50px;
+    border: 1px solid black;
+    padding: 3px;
+    margin: 3px;
+    float: left;
+}
+
+.enter {
+    width: 95px;
+    height: 50px;
+    border: 1px solid black;
+    padding: 3px;
+    margin: 3px;
+    float: left;
+}
+
+.shift {
+    width: 95px;
+    height: 50px;
+    border: 1px solid black;
+    padding: 3px;
+    margin: 3px;
+    float: left;
+}
+
+.enter {
+    width: 95px;
+    height: 50px;
+    border: 1px solid black;
+    padding: 3px;
+    margin: 3px;
+    float: left;
+}
+
+.up {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    margin: 3px;
+    padding: 3px;
+    float: left;
+}
+
+.ctrl, .win, .alt, .left, .down, .right {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    margin: 3px;
+    padding: 3px;
+    float: left; 
+}
+
+.space{
+    width: 351px;
+    height: 50px;
+    border: 1px solid black;
+    margin: 3px;
+    padding: 3px;
+    float: left; 
+}
+
+.active{
+    background: linear-gradient(rgb(168, 3, 155), rgb(189, 11, 41));
+}
